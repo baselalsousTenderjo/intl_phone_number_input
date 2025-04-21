@@ -104,7 +104,6 @@ class SelectorButton extends StatelessWidget {
       return DropdownMenuItem<Country>(
         value: country,
         child: Item(
-         
           country: country,
           showFlag: selectorConfig.showFlags,
           useEmoji: selectorConfig.useEmoji,
